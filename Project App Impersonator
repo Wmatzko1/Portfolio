@@ -1,0 +1,38 @@
+/* What does the app's SQL look like? */
+
+CREATE table Croc_Runner (
+    Player_id INTEGER PRIMARY KEY, 
+    Country TEXT, 
+    High_Score INTEGER);
+
+/* Adding Players to database */
+
+INSERT into Croc_Runner (Player_id, Country, High_Score)
+    VALUES (1, "USA", 14553); 
+   
+INSERT into Croc_Runner (Player_id, Country, High_Score)
+    VALUES (2, "Argentina", 198476); 
+   
+INSERT into Croc_Runner (Player_id, Country, High_Score)
+    VALUES (3, "Ireland", 39641); 
+   
+INSERT into Croc_Runner (Player_id, Country, High_Score)
+    VALUES (4, "Japan", 9237512); 
+
+SELECT * FROM Croc_Runner;
+
+/* Updating the Country of Player 4 to Singapore */
+
+UPDATE Croc_Runner
+SET Country = "Singapore"
+WHERE Country = "Japan";
+
+SELECT * FROM Croc_Runner;
+
+
+/* Removing player 1 data */
+
+DELETE FROM Croc_Runner WHERE Player_id = 1;
+
+SELECT * FROM Croc_Runner;
+
