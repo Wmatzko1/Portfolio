@@ -1,0 +1,20 @@
+CREATE TABLE Walkers_Blockbuster (id INTEGER, Title TEXT, Director TEXT, Genre TEXT, Year_of_Release INTEGER, Rating TEXT, BoxOfficeGross INTEGER);
+INSERT INTO Walkers_Blockbuster (id, Title, Director, Genre, Year_of_Release, Rating, BoxOfficeGross) VALUES ("1", "Doctor Strange: Multiverse of Madness", "Sam Rami", "Action-Comedy", "2022", "PG-13", "$450,000,000");
+INSERT INTO Walkers_Blockbuster (id, Title, Director, Genre, Year_of_Release, Rating, BoxOfficeGross) VALUES ("2", "Everything, Everywhere, All at Once", "Daniels", "Action-Comedy", "2022", "R", "$45,000,000");
+INSERT INTO Walkers_Blockbuster (id, Title, Director, Genre, Year_of_Release, Rating, BoxOfficeGross) VALUES ("3", "Dune", "Denis Villeneuve", "Sci-Fi", "2021", "PG-13", "$400,000,000");
+INSERT INTO Walkers_Blockbuster (id, Title, Director, Genre, Year_of_Release, Rating, BoxOfficeGross) VALUES ("4", "Encanto", "Jared Bush, Byron Howard, Charise Castro Smith", "Animation, Family", "2021", "PG", "$255,101,005");
+INSERT INTO Walkers_Blockbuster (id, Title, Director, Genre, Year_of_Release, Rating, BoxOfficeGross) VALUES ("5", "Incredibles 2", "Brad Bird", "Animation, Family", "2018", "PG", "$1,243,089,244");
+INSERT INTO Walkers_Blockbuster (id, Title, Director, Genre, Year_of_Release, Rating, BoxOfficeGross) VALUES ("6", "The Shawshank Redemption", "Frank Darabont", "Drama", "1994", "R", "$28,884,504");
+INSERT INTO Walkers_Blockbuster (id, Title, Director, Genre, Year_of_Release, Rating, BoxOfficeGross) VALUES ("7", "The Godfather", "Francis Ford Coppola", "Crime, Drama", "1972", "R", "$250,341,816");
+INSERT INTO Walkers_Blockbuster (id, Title, Director, Genre, Year_of_Release, Rating, BoxOfficeGross) VALUES ("8", "The Dark Knight", "Christopher Nolan", "Action, Crime", "2008", "PG-13", "$1,006,102,277");
+INSERT INTO Walkers_Blockbuster (id, Title, Director, Genre, Year_of_Release, Rating, BoxOfficeGross) VALUES ("9", "The Godfather: Part II", "Francis Ford Coppola", "Crime, Drama", "1974", "R", "$47,961,010");
+INSERT INTO Walkers_Blockbuster (id, Title, Director, Genre, Year_of_Release, Rating, BoxOfficeGross) VALUES ("10", "12 Angry Men", "Sydney Lumet", "Drama", "1957", "N/A", "N/A");
+INSERT INTO Walkers_Blockbuster (id, Title, Director, Genre, Year_of_Release, Rating, BoxOfficeGross) VALUES ("11", "Schindler's List", "Steven Spielberg", "Biopic, Drama", "1994", "R", "$322,161,245");
+INSERT INTO Walkers_Blockbuster (id, Title, Director, Genre, Year_of_Release, Rating, BoxOfficeGross) VALUES ("12", "The Lord of the Rings: The Return of the King", "Peter Jackson", "Fantasy, Adventure", "2003", "PG-13", "$1,146,436,214");
+INSERT INTO Walkers_Blockbuster (id, Title, Director, Genre, Year_of_Release, Rating, BoxOfficeGross) VALUES ("13", "Pulp Fiction", "Quentin Tarentino", "Crime Thriller", "1994", "R", "$213,928,762");
+INSERT INTO Walkers_Blockbuster (id, Title, Director, Genre, Year_of_Release, Rating, BoxOfficeGross) VALUES ("14", "The Lord of the Rings: The Fellowship of the Ring", "Peter Jackson", "Fantasy, Adventure", "2001", "PG-13", "$898,094,742");
+INSERT INTO Walkers_Blockbuster (id, Title, Director, Genre, Year_of_Release, Rating, BoxOfficeGross) VALUES ("15", "The Good, the Bad and the Ugly", "Sergio Leone", "Western", "1966", "R", "$25,253,887");
+
+
+
+SELECT * from Walkers_Blockbuster ORDER BY BoxOfficeGross;
