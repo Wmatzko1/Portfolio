@@ -1,0 +1,48 @@
+/* In this project, you’re going to make your own table with some small set of “famous people”, then make more tables about things they do and join those to create nice human readable lists.
+
+For example, here are types of famous people and the questions your data could answer:
+
+Movie stars: What movies are they in? Are they married to each other?
+Singers: What songs did they write? Where are they from?
+
+
+Create table about the people and what they do here */
+
+CREATE TABLE FamousPeople (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    fullname TEXT,
+    "Occupation" TEXT);
+    
+INSERT INTO FamousPeople (fullname, Occupation) VALUES ("Leonardo Dicaprio", "Actor");
+
+INSERT INTO FamousPeople (fullname, Occupation) VALUES ("Idris Elba", "Actor");
+
+INSERT INTO FamousPeople (fullname, Occupation) VALUES ('Taylor Swift', "Musician");
+
+INSERT INTO FamousPeople (fullname, Occupation) VALUES ('Elon Musk', "Businessman");
+
+INSERT INTO FamousPeople (fullname, Occupation) VALUES ('Kim Kardashian', 'Model/Lawyer?');
+
+SELECT * FROM FamousPeople;
+
+CREATE TABLE FamousPeople_Details (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    FamousPeople_id NUMERIC,
+    Most_Famous_For TEXT);
+
+INSERT INTO FamousPeople_Details (FamousPeople_id, Most_Famous_For) VALUES (1, "Titanic, The Departed, Once Upon a Time in Hollywood");
+
+INSERT INTO FamousPeople_Details (FamousPeople_id, Most_Famous_For) VALUES (2, "Beasts of No Nation, Hobbs & Shaw, Jungle Book");
+
+INSERT INTO FamousPeople_Details (FamousPeople_id, Most_Famous_For) VALUES (5, "Keeping Up With the Kardashians, Nepotism, Being Married to Kanye West");
+
+INSERT INTO FamousPeople_Details (FamousPeople_id, Most_Famous_For) VALUES (4, "Tesla, Buying Twitter");
+
+INSERT INTO FamousPeople_Details (FamousPeople_id, Most_Famous_For) VALUES (3, "All Too Well, Bad Blood");
+
+SELECT * FROM FamousPeople_Details;
+
+SELECT FamousPeople.fullname, FamousPeople.Occupation, FamousPeople_Details.Most_Famous_For
+FROM FamousPeople
+Join FamousPeople_Details
+ON FamousPeople.id = FamousPeople_Details.FamousPeople_id;
