@@ -23,6 +23,26 @@ INSERT INTO FamousPeople (fullname, Occupation) VALUES ('Elon Musk', "Businessma
 
 INSERT INTO FamousPeople (fullname, Occupation) VALUES ('Kim Kardashian', 'Model/Lawyer?');
 
+INSERT INTO FamousPeople (fullname, Occupation) VALUES ('Brad Pitt', 'Actor');
+
+INSERT INTO FamousPeople (fullname, Occupation) VALUES ('Jim Carrey', 'Actor');
+
+INSERT INTO FamousPeople (fullname, Occupation) VALUES ('James Cameron', 'Director');
+
+INSERT INTO FamousPeople (fullname, Occupation) VALUES ('Ray Liotta', 'Actor');
+
+INSERT INTO FamousPeople (fullname, Occupation) VALUES ('Donald Glover', 'Rapper, Actor, Comedian');
+
+INSERT INTO FamousPeople (fullname, Occupation) VALUES ('Robin Thede', 'Comedian, Actress, Writer');
+
+INSERT INTO FamousPeople (fullname, Occupation) VALUES ('John Mulaney', 'Comedian, Writer');
+
+INSERT INTO FamousPeople (fullname, Occupation) VALUES ('Kendrick Lamar', 'Rapper');
+
+INSERT INTO FamousPeople (fullname, Occupation) VALUES ('Chadwick Boseman', 'Actor');
+
+INSERT INTO FamousPeople (fullname, Occupation) VALUES ('Susan Sarandon', 'Actress, Activist'); 
+
 SELECT * FROM FamousPeople;
 
 CREATE TABLE FamousPeople_Details (
@@ -30,15 +50,35 @@ CREATE TABLE FamousPeople_Details (
     FamousPeople_id NUMERIC,
     Most_Famous_For TEXT);
 
-INSERT INTO FamousPeople_Details (FamousPeople_id, Most_Famous_For) VALUES (1, "Titanic, The Departed, Once Upon a Time in Hollywood");
+INSERT INTO FamousPeople_Details (FamousPeople_id, Most_Famous_For) VALUES (1, 'Titanic, The Departed, Once Upon a Time in Hollywood');
 
-INSERT INTO FamousPeople_Details (FamousPeople_id, Most_Famous_For) VALUES (2, "Beasts of No Nation, Hobbs & Shaw, Jungle Book");
+INSERT INTO FamousPeople_Details (FamousPeople_id, Most_Famous_For) VALUES (2, 'Beasts of No Nation, Hobbs & Shaw, Jungle Book');
 
-INSERT INTO FamousPeople_Details (FamousPeople_id, Most_Famous_For) VALUES (5, "Keeping Up With the Kardashians, Nepotism, Being Married to Kanye West");
+INSERT INTO FamousPeople_Details (FamousPeople_id, Most_Famous_For) VALUES (5, 'Keeping Up With the Kardashians, Nepotism, Being Married to Kanye West');
 
-INSERT INTO FamousPeople_Details (FamousPeople_id, Most_Famous_For) VALUES (4, "Tesla, Buying Twitter");
+INSERT INTO FamousPeople_Details (FamousPeople_id, Most_Famous_For) VALUES (4, 'Tesla, Buying Twitter');
 
-INSERT INTO FamousPeople_Details (FamousPeople_id, Most_Famous_For) VALUES (3, "All Too Well, Bad Blood");
+INSERT INTO FamousPeople_Details (FamousPeople_id, Most_Famous_For) VALUES (3, 'All Too Well, Bad Blood');
+
+INSERT INTO FamousPeople_Details (FamousPeople_id, Most_Famous_For) VALUES (6, 'Fight Club, Curious Case of Benjamin Button, Se7ven');
+
+INSERT INTO FamousPeople_Details (FamousPeople_id, Most_Famous_For) VALUES (7, 'Mask, Sonic The Hedgehog');
+
+INSERT INTO FamousPeople_Details (FamousPeople_id, Most_Famous_For) VALUES (8, 'Aliens, Terminator 2: Judgement Day, Avatar');
+
+INSERT INTO FamousPeople_Details (FamousPeople_id, Most_Famous_For) VALUES (9, 'Goodfellas, Grand Theft Auto: Vice City, Field of Dreams');
+
+INSERT INTO FamousPeople_Details (FamousPeople_id, Most_Famous_For) VALUES (10, 'Community, This is America, Atlanta');
+
+INSERT INTO FamousPeople_Details (FamousPeople_id, Most_Famous_For) VALUES (11, 'The Rundown with Robin Thede, Black Lady Sketch Show');
+
+INSERT INTO FamousPeople_Details (FamousPeople_id, Most_Famous_For) VALUES (12, 'Big Mouth, Saturday Night Live');
+
+INSERT INTO FamousPeople_Details (FamousPeople_id, Most_Famous_For) VALUES (13, 'To Pimp a Butterfly, Good Kid MAAD City');
+
+INSERT INTO FamousPeople_Details (FamousPeople_id, Most_Famous_For) VALUES (14, 'Black Panther, Captain America: Civil War, Ma Raineys Big Black Bottom');
+
+INSERT INTO FamousPeople_Details (FamousPeople_id, Most_Famous_For) VALUES (15, 'Thelma and Louise, Deadman Walking');
 
 SELECT * FROM FamousPeople_Details;
 
