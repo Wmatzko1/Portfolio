@@ -1,0 +1,243 @@
+DROP TABLE BlackOwnedBusinessesMiami;
+
+CREATE TABLE BlackOwnedBusinessesMiami (
+    City VARCHAR (25),
+    Company VARCHAR (100),
+    Street VARCHAR (50),
+	Neighborhood VARCHAR (25),
+	Website VARCHAR (75),
+	Latitude DECiMAL (6, 4),
+	Longitude DECiMAL (6, 4),
+	BusinessCategory VARCHAR(35)
+);
+
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Website, Latitude, Longitude, BusinessCategory)
+	VALUES ('Florida City', 'Top Taste Jamaican Resturant', '955 N.W. 3rd Avenue', 'Florida City', 'www.toptastejam.com', '25.4581', '-80.4803', 'Dining');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Latitude, Longitude, BusinessCategory)
+	VALUES ('Florida City', 'Our Little Hands of Love, Inc', '489 West Lucy Street', 'Florida City', '25.4622', '-80.4828', 'Daycare');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Latitude, Longitude, BusinessCategory)
+	VALUES ('Florida City', 'Yvenold Beauty Supply', '543 West Lucy Street', 'Florida City', '25.4623', '-80.4841', 'Hair Care');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Latitude, Longitude, BusinessCategory)
+	VALUES ('Florida City', 'A.J. Manuel Funeral Home', '967 West Lucy Street', 'Florida City', '25.4623', '-80.4928', 'Professional Services');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Latitude, Longitude, BusinessCategory)
+	VALUES ('Florida City', 'Precision Rehability', '1446 North Krome Avenue', 'Florida City', '25.4610', '-80.4778', 'Professional Services');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Latitude, Longitude, BusinessCategory)
+	VALUES ('Florida City', 'South Florida 4U, Inc.', '1452 North Krome Avenue,Suite 101F', 'Florida City', '25.4613', '-80.4776', 'Professional Services');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Latitude, Longitude, BusinessCategory)
+	VALUES ('Florida City', 'Sweet De-Lights Bakery', '1485 NE 1st Avenue', 'Florida City', '25.4620', '-80.4745', 'Dining');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Website, Latitude, Longitude, BusinessCategory)
+	VALUES ('Naranja', 'SAK PASE Restaurant', '27156 S. Dixie Highway', 'Naranja', 'www.sakpaserestaurant.com', '25.5115', '-80.4341', 'Dining');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Latitude, Longitude, BusinessCategory)
+	VALUES ('Miami', 'Head Hunterz Barber Shop', '711 S.W. Lucy Street', 'Naranja', '25.4627', '-80.4871', 'Hair Care');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Website, Latitude, Longitude, BusinessCategory)
+	VALUES ('Miami', 'Patricia C. Mellerson Real Estate School, LLC', '13018 SW 120th Street', 'Naranja', 'www.patmellersonrealestateschool.com', '25.6561', '-80.4058', 'Professional Services');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Website, Latitude, Longitude, BusinessCategory)
+	VALUES ('Miami', 'Tax Doctor LLC', '26033 S. Dixie Highway', 'Naranja', 'www.taxdrz.com', '25.5251', '-80.4218', 'Professional Services');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Latitude, Longitude, BusinessCategory)
+	VALUES ('Miami', 'Chicks n Wings', '10918 S.W. 184th Street', 'West Perrine', '25.5980', '-80.3687', 'Dining'); 
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Website, Latitude, Longitude, BusinessCategory)
+	VALUES ('Miami', 'Jamaica Silver Spoon Takeout', '18334 Homestead Avenue', 'West Perrine', 'http://www.silverspoon-takeout.com/', '25.5987', '-80.3568', 'Dining');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Latitude, Longitude, BusinessCategory)
+	VALUES ('Miami', 'Jamaican Tastee Patties, Inc.', '18667 SW 107th Avenue', 'West Perrine', '25.5944', '-80.3641', 'Dining');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Website, Latitude, Longitude, BusinessCategory)
+	VALUES ('Miami', 'We’re Having A Party, Inc. Catering', '11331 SW 230th Terrace', 'West Perrine', 'Cateringservicesmiamiflorida.com', '25.5533', '-80.3747', 'Food Services');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Website, Latitude, Longitude)
+	VALUES ('Miami', 'New Testament Church of God Little Angels Academy', '10190 S.W. 168th Street', 'West Perrine', 'www.Littleanglesacd.com', '25.6131', '-80.3568');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Latitude, Longitude)
+	VALUES ('Miami', 'VIP Christian Academy', '17445-A Homestead Avenue', 'West Perrine', '25.6062', '-80.3528');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Latitude, Longitude)
+	VALUES ('Miami', 'Wiz Kidz Learning Center', '9934 Hibiscus Street', 'West Perrine', '25.6046', '-80.3522');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Latitude, Longitude)
+	VALUES ('Miami', 'Aztek Nursing Registry, Inc.', '16201 SW 95th Avenue #213', 'West Perrine', '25.6184', '-80.3466');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Latitude, Longitude)
+	VALUES ('Miami', 'A Bernard Financial Services', '9031 SW 152nd Street', 'West Perrine', '25.6289', '-80.3399');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Latitude, Longitude)
+	VALUES ('Miami', 'Brown’s Realty Group, Inc.', '17304 Walker Avenue', 'West Perrine', '25.6086', '-80.3514');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Latitude, Longitude)
+	VALUES ('Miami', 'Caribbean Deli-mart - West Indian & American Groceries', '9845 SW 184th Street', 'West Perrine', '25.5992', '-80.3514');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Website, Latitude, Longitude)
+	VALUES ('Miami', 'Craig Emmanuel Community Realty Advisors - Information Group, LLC', 'P.O. Box 561777', 'West Perrine', 'https://www.craiginc.com/', '25.6485', '-80.3318');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Latitude, Longitude)
+	VALUES ('Miami', 'Gild Adult Day Care, Inc.', '18901 SW 106th Avenue', 'West Perrine', '25.5900', '-80.3620');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Latitude, Longitude)
+	VALUES ('Miami', 'Gullco Enterprises', 'P.O. Box 571175', 'West Perrine', '25.7750', '-80.1947');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Latitude, Longitude)
+	VALUES ('Miami', 'Henry’s Dry Cleaners', '9945 Hibiscus Street', 'West Perrine', '25.6051', '-80.3527');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Latitude, Longitude)
+	VALUES ('Miami', 'Integrity Janitorial Services Corporation', '10871 S.W.188th Street, Unit 21', 'West Perrine', '25.5937', '-80.3681');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Website, Latitude, Longitude, BusinessCategory)
+	VALUES ('Miami', 'Jay Funeral Home', '17420 Homestead Avenue', 'West Perrine', 'http://www.jaysfuneralhome.com/', '25.6067', '-80.3532', 'Professional Services');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Latitude, Longitude, BusinessCategory)
+	VALUES ('Miami', 'J.V. Insurance Agency, Inc.', '10755 SW 104th Street', 'West Perrine', '25.6726', '-80.3680', 'Professional Services');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Latitude, Longitude, BusinessCategory)
+	VALUES ('Miami', 'John Wellons Productions - TV Shows & TV Commercials', '13972 SW 276th Way', 'West Perrine', '25.5097', '-80.4176', 'Professional Services');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Latitude, Longitude, BusinessCategory)
+	VALUES ('Miami', 'Miriam Martin Event, LLC', '11404 SW 148th Terrace', 'West Perrine', '25.6294', '-80.3793', 'Professional Services');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Latitude, Longitude, BusinessCategory)
+	VALUES ('Miami', 'The Cut Stop Barbershop', '9849 East Fern Street', 'West Perrine', '25.6057', '-80.3498', 'Professional Services');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Latitude, Longitude, BusinessCategory)
+	VALUES ('Miami', 'The Law Offices of Claudette O. Batts', '9710 East Indigo Street, #202', 'West Perrine', '25.6022', '-80.3489', 'Professional Services');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Website, Latitude, Longitude, BusinessCategory)
+	VALUES ('Miami', 'Tomlin Transportation Consulting, Inc.', '22121 S. Dixie Highway Miami, Florida 33170', 'West Perrine', 'http://www.tomlintransportationconsulting.com/', '25.5615', '-80.3860', 'Professional Services');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Latitude, Longitude, BusinessCategory)
+	VALUES ('Miami', 'Toussaint L. Taylor Financial Planners', '9740 S.W.184th Street', 'West Perrine', '25.5986', '-80.3540', 'Professional Services');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Website, Latitude, Longitude, BusinessCategory)
+	VALUES ('Miami', 'Video Copy, Inc', '17629 South Dixie Highway', 'West Perrine', 'http://www.videocopyinc.com/', '25.6046', '-80.3489', 'Professional Services');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Latitude, Longitude, BusinessCategory)
+	VALUES ('Miami', 'Kelcey’s Grocery', '22060 South Dixie Highway', 'Goulds', '25.5619', '-80.3860', 'Retail');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Website, Latitude, Longitude, BusinessCategory)
+	VALUES ('Miami', 'Pro Networking Plus, Inc.', '22215 South Dixie Highway', 'Goulds', 'http://www.millenniumtpwc.com/', '25.5608', '-80.3868', 'Professional Services');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Website, Latitude, Longitude, BusinessCategory)
+	VALUES ('Miami', 'Grown Southern Organic Soul Restaurant', '8211 South Dixie Highway', 'Richmond Heights', 'http://www.grown.org/', '25.6939', '-80.3014', 'Dining');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Latitude, Longitude, BusinessCategory)
+	VALUES ('Miami', 'Mr. Jack’s Soul Food', '', 'Richmond Heights', '25.6330', '-80.3769', 'Dining');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Website, Latitude, Longitude, BusinessCategory)
+	VALUES ('Miami', 'Deloris Florist & Gift Shop', '14654 Lincoln Boulevard (S.W. 112 Ave)', 'Richmond Heights', 'http://www.delorisflorist.com/', '25.6277', '-80.3744', 'Professional Services');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Website, Latitude, Longitude, BusinessCategory)
+	VALUES ('Miami', 'James Accounting & Tax Practice', '10749 S.W.104th Street', 'Richmond Heights', 'http://www.jamesaccounting.com/', '25.6727', '-80.3679', 'Professional Services');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Latitude, Longitude, BusinessCategory)
+	VALUES ('Miami', 'Paradise Memorial Funeral Home', '14545 Carver Drive', 'Richmond Heights', '25.6323', '-80.3768', 'Professional Services');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Website, Latitude, Longitude, BusinessCategory)
+	VALUES ('Miami', 'Patricia Mellerson Real Estate School', '13018 S.W. 120th Street', 'Richmond Heights', 'http://www.patriciamellersonrealestateschool.com/', '25.6561', '-80.4058', 'Professional Services');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Latitude, Longitude, BusinessCategory)
+	VALUES ('Miami', 'West Grove Food Zone', '3360 Douglas Road', 'West Grove', '25.7283', '-80.2539', 'Dining'); 
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Latitude, Longitude, BusinessCategory)
+	VALUES ('Miami', 'Charles Barber Shop', '3757 Grand Avenue', 'West Grove', '25.7278', '-80.2544', 'Hair Care'); 
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Latitude, Longitude, BusinessCategory)
+	VALUES ('Miami', 'ACE Theater ', '3664 Grand Ave', 'West Grove', '25.7274', '-80.2528', 'Attractions');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Latitude, Longitude, BusinessCategory)
+	VALUES ('Miami', 'Charlotte Jane Memorial Park Cemetery', '3575 Douglas Road', 'West Grove', '25.7252', '-80.2534', 'Attractions');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Website, Latitude, Longitude, BusinessCategory)
+	VALUES ('Miami', 'Christ Episcopal Church', '3481 Hibiscus Street', 'West Grove', 'https://chrepch.org/', '25.7264', '-80.2493', 'Attractions');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Website, Latitude, Longitude, BusinessCategory)
+	VALUES ('Miami', 'E.W.F Stirrup House', '3242 Charles Avenue', 'West Grove', 'http://www.stirruphouse.com/', '25.7255', '-80.2453', 'Attractions');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Website, Latitude, Longitude, BusinessCategory)
+	VALUES ('Miami', 'Historic Coconut Grove Cemetery', '3650 Charles Avenue', 'West Grove', 'http://www.historicpreservationmiami.com/', '25.7255', '-80.2523', 'Attractions'); 
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Website, Latitude, Longitude, BusinessCategory)
+	VALUES ('Miami', 'Coconut Grove Sports Hall of Fame', '3634 Grand Avenue', 'West Grove', 'http://www.cgsportshalloffame.com/', '25.7275', '-80.2520', 'Attractions');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Latitude, Longitude, BusinessCategory)
+	VALUES ('Miami', 'Coconut Grove Wall Walk of Fame', '3255 Plaza Street', 'West Grove', '25.7307', '-80.2507', 'Attractions');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Website, Latitude, Longitude, BusinessCategory)
+	VALUES ('Miami', 'Macedonia Missionary Baptist Church', '3515 Douglas Road', 'West Grove', 'https://macedoniambcmiami.com/', '25.7257', '-80.2532', 'Attractions');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Website, Latitude, Longitude, BusinessCategory)
+	VALUES ('Miami', 'Groovin’ Bean Coffee Bar & Lounge','801 NW 3rd Ave Suite #104', 'Overtown', 'http://www.groovinbean.com/', '25.7819', '-80.1995', 'Dining');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Website, Latitude, Longitude, BusinessCategory)
+	VALUES ('Miami', 'House of Mac, LLC', '550 NW 1st Avenue', 'Overtown', 'http://www.houseofmac.com/', '25.7794', '-80.1952', 'Dining');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Website, Latitude, Longitude, BusinessCategory)
+	VALUES ('Miami', 'House of Mac LLC (Wynwood)', '2055 NW 2nd Avenue', 'Overtown', 'http://www.houseofmac.com/', '25.7962', '-80.1988', 'Dining');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Latitude, Longitude, BusinessCategory)
+	VALUES ('Miami', 'House of Wings', '1039 N.W. 3rd Avenue', 'Overtown', '-80.1997', '25.7841', 'Dining');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Latitude, Longitude, BusinessCategory)
+	VALUES ('Miami', 'Italian Vice Miami', 'Cart in front of House of Wings 1039 N.W. 3rd Aven', 'Overtown', '-80.1997', '25.7841',  'Dining');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Website, Latitude, Longitude, BusinessCategory)
+	VALUES ('Miami', 'Jackson Soul Food', '950 N.W. 3rd Avenue', 'Overtown', 'http://www.jacksonsoulfood.com/', '25.7834', '-80.1999', 'Dining');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Website, Latitude, Longitude, BusinessCategory)
+	VALUES ('Miami','Lil Greenhouse Grill', '1300 NW 3rd Avenue', 'Overtown', 'http://www.lilgreenhousegrill.com/', '25.7869', '-80.2000', 'Dining');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Latitude, Longitude, BusinessCategory)
+	VALUES ('Miami','Now That’s a Wrap', '801 NW 3rd Avenue', 'Overtown', '25.7819', '-80.1995', 'Dining');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Website, Latitude, Longitude, BusinessCategory)
+	VALUES ('Miami','Red Rooster Overtown', '920 NW 2nd Avenue', 'Overtown', 'https://redroosterovertown.com/', '25.7830', '-80.1982', 'Dining');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Latitude, Longitude, BusinessCategory)
+	VALUES ('Miami','Rosie’s @ The Copper Door Bed & Breakfast', '439 NW 4th Avenue', 'Overtown', '25.7785', '-80.2009', 'Dining');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Latitude, Longitude, BusinessCategory)
+	VALUES ('Miami', 'Two Guys Restaurant, Inc.', '1490 N.W. 3rd Avenue', 'Overtown', '25.7893', '-80.2005', 'Dining');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Latitude, Longitude, BusinessCategory)
+	VALUES ('Miami', 'Epic Nail Lounge Miami', '801 NW 3rd Avenue - Suite 103', 'Overtown', '25.7819', '-80.1995', 'Hair Care & Beauty'); 
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Latitude, Longitude, BusinessCategory)
+	VALUES ('Miami', 'Just Right Beauty Salon & Barber Shop', '1131 N.W. 3rd Avenue', 'Overtown', '25.7852', '-80.1996', 'Hair Care & Beauty');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Website, Latitude, Longitude, BusinessCategory)
+	VALUES ('Miami', 'Healing Leaf Miami', '801 NW 3rd Avenue, Suite 102', 'Overtown', 'http://www.healingleafmiami.com/', '25.7819', '-80.1995', 'Retail');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Website, Latitude, Longitude, BusinessCategory)
+	VALUES ('Miami', 'Suite 110 Urbanwear/The Shops of Overtown', '1490 NW 3rd Ave STE 110', 'Overtown', 'http://www.shopsofovertown.com/', '25.7893', '-80.2005', 'Retail');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Latitude, Longitude, BusinessCategory)
+	VALUES ('Miami', 'IBS Construction Group', '111 NE 1st Street, 8th Floor', 'Overtown', '25.7750', '-80.1934', 'Professional Services'); 
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Latitude, Longitude, BusinessCategory)
+	VALUES ('Miami', 'Space Called Tribe Co-Working Space', '937 NW 3rd Avenue', 'Overtown', '25.7833', '-80.1994', 'Professional Services');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Website, Latitude, Longitude, BusinessCategory)
+	VALUES ('Miami', 'Black Archives Historic Lyric Theater Cultural Arts Complex', '819 NW Second Avenue', 'Overtown', 'http://www.bahlt.org/', '25.7820', '-80.1977', 'Attractions');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Latitude, Longitude, BusinessCategory)
+	VALUES ('Miami', 'Black Police Precinct Courthouse & Museum', '480 N.W. 11th Street', 'Overtown', '25.7842', '-80.2027', 'Attractions');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Website, Latitude, Longitude, BusinessCategory)
+	VALUES ('Miami', 'The Copper Door Bed and Breakfast', '439 NW 4th Avenue', 'Overtown','http://www.copperdoorbnb.com/', '25.7785', '-80.2008', 'Attractions');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Website, Latitude, Longitude, BusinessCategory)
+	VALUES ('Miami', 'Dr. William A. Chapman House', '526 NW 13th Street', 'Overtown', 'http://www.historicpreservationmiami.com/chapman.html', '25.4597', '-80.4838', 'Attractions');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Website, Latitude, Longitude, BusinessCategory)
+	VALUES ('Miami', 'Dana A. Dorsey House', '250 NW 9th Street', 'Overtown', 'http://www.experienceovertown.com/', '25.7825', '-80.1990', 'Attractions');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Website, Latitude, Longitude, BusinessCategory)
+	VALUES ('Miami', 'Dorsey Memorial Library', '100 NW 17th Street', 'Overtown', 'http://www.historicpreservationmiami.com/', '25.7914', '-80.1968', 'Attractions');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Website, Latitude, Longitude, BusinessCategory)
+	VALUES ('Miami', 'Dunns-Josephine Hotel', '1028 NW 3rd Avenue', 'Overtown', 'http://www.dunns-josephinehotel.com/', '25.7841', '-80.1999', 'Attractions');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Latitude, Longitude, BusinessCategory)
+	VALUES ('Miami', 'The Historic Mt. Zion Missionary Baptist Church', 'N Missionary Baptist Church', 'Overtown', '36.9336', '-83.9226', 'Attractions');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Latitude, Longitude, BusinessCategory)
+	VALUES ('Miami', 'St. Agnes Episcopal Church', '1750 NW 3rd Avenue', 'Overtown', '25.7927', '-80.2006', 'Attractions');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Website, Latitude, Longitude, BusinessCategory)
+	VALUES ('Miami', 'Overtown Performing Arts Center (OPAC)', '1074 NW Third Avenue', 'Overtown', 'http://www.experienceovertown.com/', '25.7786', '-80.1995', 'Attractions');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Latitude, Longitude, BusinessCategory)
+	VALUES ('Miami', 'Ward Rooming House & Artist Complex & Hampton Art Lovers Gallery Space ', '249 NW 9th Street', 'Overtown', '25.7827', '-80.1990', 'Attractions');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Latitude, Longitude, BusinessCategory)
+	VALUES ('Miami', 'The Bahamian Pot Restaurant', '6301 N.W. 6th Avenue unit 1', 'Liberty City', '25.8334', '-80.2068', 'Dining');	
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Website, Latitude, Longitude, BusinessCategory)
+	VALUES ('Miami', 'Chef Creole Restaurant', '200 NW 54 Street', 'Liberty City', 'http://www.chefcreole.com/', '25.8248', '-80.2002', 'Dining');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Website, Latitude, Longitude, BusinessCategory)
+	VALUES ('Miami', 'Clives Cafe', '5890 NW 2nd Avenue', 'Liberty City', 'http://www.clivescafe.com/', '25.8293', '-80.2005', 'Dining');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Latitude, Longitude, BusinessCategory)
+	VALUES ('Miami', 'Conch It Up Soul Food Restaurant', '4501 N.W. 17th Avenue', 'Liberty City', '25.8164', '-80.2239', 'Dining');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Latitude, Longitude, BusinessCategory)
+	VALUES ('Miami', 'Fry Head', '1010 NW 44th Street', 'Liberty City', '25.8157', '-80.2122', 'Dining');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Latitude, Longitude, BusinessCategory)
+	VALUES ('Miami', 'International Rainbow Produce Market', '4338 NW 7th Avenue', 'Liberty City', '25.8158', '-80.2079', 'Food Products');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Latitude, Longitude, BusinessCategory)
+	VALUES ('Miami', 'MLK Restaurant', '5931 NW 17th Avenue', 'Liberty City', '25.8299', '-80.2247', 'Dining');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Latitude, Longitude, BusinessCategory)
+	VALUES ('Miami', 'Tropical Conch', '4500 NW 12th Avenue', 'Liberty City', '25.8165', '-80.2161', 'Dining');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Latitude, Longitude, BusinessCategory)
+	VALUES ('Miami', 'World Famous Rib Shack & Seafood', '7506 NW 17th Avenue', 'Liberty City', '25.8430', '-80.2256', 'Dining'); 
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Website, Latitude, Longitude, BusinessCategory)
+	VALUES ('Miami', 'African American Performing Arts Community Theatre, Inc. (AAPACT)', '1832 N.W. 59th Street', 'Liberty City', 'http://www.aapact.com/', '25.8287', '-80.2275', 'Entertainment');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Website, Latitude, Longitude, BusinessCategory)
+	VALUES ('Miami', 'African Heritage Cultural Arts Center', '6161 N.W. 22nd Avenue', 'Liberty City', 'http://www.ahcac.org/', '25.8310', '-80.2326', 'Entertainment');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Latitude, Longitude, BusinessCategory)
+	VALUES ('Miami', 'Tropical Conch', '4500 NW 12th Avenue', 'Liberty City', '25.8165', '-80.2161', 'Dining');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Latitude, Longitude, BusinessCategory)
+	VALUES ('Miami', 'Johnnie’s LBR Club & Lounge', '6515 N.W. 22nd Avenue', 'Liberty City', '25.834', '-80.2328', 'Entertainment');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Latitude, Longitude, BusinessCategory)
+	VALUES ('Miami', 'Liberty Elks Lodge & Lounge', '6525 N.W. 18th Avenue', 'Liberty City', '25.8344', '-80.2268', 'Entertainment');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Latitude, Longitude, BusinessCategory)
+	VALUES ('Miami', 'Shantels Jazz Café', '5422 N.W. 7th Avenue', 'Liberty City', '25.825', '-80.2083', 'Entertainment');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Latitude, Longitude, BusinessCategory)
+		VALUES ('Miami', 'Curleys Beauty Salon', '6301 N.W. 7th Avenue', 'Liberty City', '25.8335', '-80.2082', 'Hair Care');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Latitude, Longitude, BusinessCategory)
+		VALUES ('Miami', 'Mel’s Beauty & Barber Salon', '5509 N.W. 7th Avenue', 'Liberty City', '25.8258', '-80.2078', 'Hair Care');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Latitude, Longitude, BusinessCategory)
+		VALUES ('Miami', 'Mop City Barber Shop', '6113 NW 7th Avenue', 'Liberty City', '25.8314', '-80.2084', 'Hair Care');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Latitude, Longitude, BusinessCategory)
+		VALUES ('Miami', 'Nails by Daddy', '4500 NW 12th Avenue', 'Liberty City', '25.8165', '-80.2161', 'Hair Care');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Website,  Latitude, Longitude, BusinessCategory)
+		VALUES ('Miami', 'Able Business Service, Inc.', '1324 NW 79th Street', 'Liberty City', 'http://www.ablebusinessservices.com/', '25.8466', '-80.2196', 'Professional Services');
+	INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Website, Latitude, Longitude, BusinessCategory)
+		VALUES ('Miami', 'Art Forever Studios', '3275 NW 79th Street - Second Floor', 'Liberty City', 'http://www.addonisparker.com/', '25.8461', '-80.2515', 'Professional Services');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Latitude, Longitude, BusinessCategory)
+		VALUES ('Miami', 'Bobbys Gym', '5708 N.W. 7th Avenue', 'Liberty City', '25.8279', '-80.2083', 'Professional Services');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Website, Latitude, Longitude, BusinessCategory)
+		VALUES ('Miami', 'Hadley Davis Funeral Home', '2321 NW 62nd Street', 'Liberty City', 'http://www.hadleydavisfh.com/', '25.8316', '-80.2356', 'Professional Services');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Latitude, Longitude, BusinessCategory)
+		VALUES ('Miami', 'Hall Ferguson Hewitt Mortuary', '1900 N.W. 54th Street', 'Liberty City', '25.8242', '-80.2286', 'Professional Services');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Latitude, Longitude, BusinessCategory)
+		VALUES ('Miami', 'Heritage Yacht Tours & Marine Academy', '5150 NW 2nd Avenue', 'Liberty City', '25.8231', '-80.2001', 'Professional Services');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Website, Latitude, Longitude, BusinessCategory)
+		VALUES ('Miami', 'Jessie Trice Health Center & Jefferson Reaves', '2985 NW 54th Street', 'Liberty City', 'http://www.jtchc.org/', '25.8241', '-80.2444', 'Professional Services');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Website, Latitude, Longitude, BusinessCategory)
+		VALUES ('Miami', 'King Tours & Transportation', 'P.O. Box 681627', 'Liberty City', 'http://www.kingscollegetours.com/', '25.7750', '-80.1947', 'Professional Services');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Latitude, Longitude, BusinessCategory)
+		VALUES ('Miami', 'Law Office of Patrick Range II, Esq.', '5727 N.W. 17th Avenue', 'Liberty City', '25.8278', '-80.2244', 'Professional Services');
+INSERT INTO BlackOwnedBusinessesMiami (City, Company, Street, Neighborhood, Website, Latitude, Longitude, BusinessCategory)
+		VALUES ('Miami', 'Liberty Academy Daycare & Preschool', '7750 N.W. 12th Avenue', 'Liberty City', 'http://www.libertyacademyandpreschool.com/', '25.8455', '-80.2177', 'Professional Services');
+
+
+
+
+
+
+
+SELECT * FROM BlackOwnedBusinessesMiami;
