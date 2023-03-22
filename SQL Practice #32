@@ -1,0 +1,24 @@
+/*
+Question 1: Dense Rank will rank things consecutively... does it relable the ranking?
+I need to figure out which instances require a second SELECT function
+*/
+SELECT
+  artist_id,
+  DENSE_RANK() OVER (
+  ORDER BY fill_in_column DESC
+  ) AS artist_rank
+FROM (
+  SELECT
+    songs.artist_id,
+  	COUNT(songs.song_id) AS song_count
+  FROM songs
+  JOIN global_song_rank
+    ON songs.song_id = global_song_rank.song_id
+  WHERE global_song_rank.rank <= 10
+  GROUP BY songs.artist_id
+) AS top_songs
+
+
+/*
+Question 2: ....
+*/
